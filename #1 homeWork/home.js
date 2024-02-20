@@ -1,4 +1,4 @@
-// 1 Juft va toq sonni topish
+// 1task Juft va toq sonni topish
 
 /* var num  = 12
 if(num%2 == 0){
@@ -8,7 +8,7 @@ console.log(`${num} toq son`);
 } */
 
 /////////////////////////////////////
-// 2. Ball topish
+// 2 task. Ball topish
 
 /* var ball = 45
 
@@ -24,16 +24,16 @@ if(ball >= 98){
 
 /////////////////////////////////////////////
 
-// 3.Meva narxini topish
+// 3 task .Meva narxini topish
 
-/* var meva = 'pame'
+var meva = 'f'
 
 if (meva === 'olma'){
     console.log('10 000');
-}if (meva === 'nok'){
+}else if (meva === 'nok'){
     console.log('12 000');
-}if(meva === 'tarvuz'){
+}else if(meva === 'tarvuz'){
     console.log('20 000');
-}if(meva !== 'olma' || meva !== ' nok' || meva !== 'tarvuz'){
-    console.log('Bunday meva yo\'q');
-}  */
+}else {
+    console.log('bunday meva yo\'q');
+}
