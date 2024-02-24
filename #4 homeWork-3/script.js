@@ -41,3 +41,26 @@ for (let i = 0; i < str.length; i++) {
 }
 console.log("Katta harflar: " + kattaHarf);
  */
+ 
+/* let str = 'SaRdOR'
+let kattaHarf = []
+ for(let i = 0; i < str.length; i++){
+   if(str[i] === str[i].toUpperCase() && str[i] !== str[i].toLowerCase()){
+    kattaHarf.push(str[i])
+
+   }
+ }
+ console.log(kattaHarf); */
+
+ let color = 'blue';
+
+switch (color) {
+  case 'red':
+    console.log('The color is red');
+    break;
+  case 'blue':
+    console.log('The color is blue');
+    break;
+  default:
+    console.log('The color is neither red nor blue');
+}

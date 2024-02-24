@@ -8,7 +8,7 @@ console.log(`${num} toq son`);
 } */
 
 /////////////////////////////////////
-// 2 task. Ball topish
+// 2task. Ball topish
 
 /* var ball = 45
 
