@@ -61,7 +61,7 @@ console.log('You\' ve got the Edge!');
 }else{
     console.log('We hope that teis page looks ok!');
 }
- */
+ *///
 
 ///////////////////////////////////////////////////////////////////
 
