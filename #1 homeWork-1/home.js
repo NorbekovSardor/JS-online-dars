@@ -38,3 +38,4 @@ if (meva === 'olma'){
     console.log('bunday meva yo\'q');
 }
  */
+//
