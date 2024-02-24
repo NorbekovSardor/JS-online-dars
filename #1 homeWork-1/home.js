@@ -26,7 +26,7 @@ if(ball >= 98){
 
 // 3 task .Meva narxini topish
 
-var meva = 'f'
+/* var meva = 'f'
 
 if (meva === 'olma'){
     console.log('10 000');
@@ -37,3 +37,4 @@ if (meva === 'olma'){
 }else {
     console.log('bunday meva yo\'q');
 }
+ */
