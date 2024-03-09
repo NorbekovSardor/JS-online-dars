@@ -1,21 +1,21 @@
 // <<<<<< 1 >>>>>>>>>
 
-// let str = 'WBAacademyaaa';  //
-// terminal => a - 3
+/* let str = 'WBAacademyaaa';  //
+terminal => a - 3
 
-// let result = "";
+let result = "";
 
-// for (let i = 0; i < str.length; i++){
-    
-//     if (str[i] === 'a') {
-//         // result = result + str[i]
-//         result += str[i]
-//     }
-    
-// }
+for (let i = 0; i < str.length; i++){
+ 
+    if (str[i] === 'a') {
+        // result = result + str[i]
+        result += str[i]
+    }
+ 
+}
 
-// console.log('a-',result.length);
-
+ console.log('a-',result.length +'ta');
+ */
 /////////////////////////////////////////////////
 
 // let str = 'WBAcaademy';  //
