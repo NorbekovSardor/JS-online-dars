@@ -1,41 +1,37 @@
+// let a = 1;
+// a = 1;
+// var a = 2;
+// a = 3;
+// console.log(a);
 
-let user = {
-    name: "Webbrain",
-    lastname: "Academy",
-    title: "IT Center",
+// {
+//   let b = "wba";
+// }
+
+// console.log(b);
+// var i=1
+// for (i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+// for (i ; i < 10; i++) {
+//   console.log(i);
+// }
+
+// console.log(i);
+let name = "webbrain";
+
+function outer() {
+  let n = "wba";
+  console.log(name);
+  return function () {
+    console.log(name);
   };
-  let user2 = {
-    name: "Digital",
-    lastname: "One",
-    title: "IT Center",
-  };
-  
-  let users = [
-    {
-      name: "Webbrain",
-      lastname: "Academy",
-      title: "IT Center",
-    },
-    {
-      name: "Digital",
-      lastname: "One",
-      title: "IT Center",
-    },
-  ];
-  function getFull(a) {
-    console.log(a);
-    console.log(`${this.name} ${this.lastname}`);
-  }
-  
-  getFull.call(user);
-  getFull.apply(user);
-  getFull.bind(user, "hey")();
-  
-  // for (let usr of users) {
-  //   // getFull.call(usr, "eshmat", "toshmat");
-  //   getFull.apply(usr, ["eshmat", "toshmat"]);
-  // }
-  
-  // getFull.call({ name: "webbrain", lastname: "Academy" });
-  // user2.getFull();
-  
+}
+
+// function getName() {
+//   let b = 'wba'
+//   console.log(name);
+//   return function(){
+//     console.log(name, b);
+//   };
+// }
